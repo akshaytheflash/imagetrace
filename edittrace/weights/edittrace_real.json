@@ -1,0 +1,12 @@
+{
+  "dataset": "columbia",
+  "steps": 200,
+  "batch": 4,
+  "size": 320,
+  "lr": 0.00025,
+  "best_val_iou": 0.20742273336441444,
+  "elapsed_s": 1199.3,
+  "init": "edittrace/weights/edittrace_unet.pt",
+  "train_rows": 215,
+  "val_rows": 27
+}

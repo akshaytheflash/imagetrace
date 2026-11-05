@@ -1,0 +1,59 @@
+{
+  "scenes": 160,
+  "pairs": 160,
+  "train_acc": 0.9187,
+  "top_features": [
+    [
+      "log_ela_ratio",
+      -4.333
+    ],
+    [
+      "log_hf_ratio",
+      2.43
+    ],
+    [
+      "resample_ratio",
+      -0.569
+    ],
+    [
+      "conf_diff",
+      -0.366
+    ],
+    [
+      "noise_floor",
+      0.32
+    ],
+    [
+      "log_noise_ratio",
+      0.221
+    ],
+    [
+      "dq_diff",
+      0.217
+    ],
+    [
+      "seam_truncation",
+      0.178
+    ]
+  ],
+  "features": [
+    "compression_lineage",
+    "recompression_smoothing",
+    "seam_truncation",
+    "seam_blend",
+    "noise_floor",
+    "log_noise_ratio",
+    "log_hf_ratio",
+    "log_ela_ratio",
+    "resample_ratio",
+    "dq_diff",
+    "seam_diff",
+    "log_area_ratio",
+    "conf_diff",
+    "kind_splice",
+    "kind_copy_move",
+    "kind_inpaint",
+    "kind_resampled_insert",
+    "kind_unknown"
+  ]
+}
