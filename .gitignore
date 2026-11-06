@@ -6,10 +6,7 @@ dist/
 .out/
 .playwright-mcp/
 runs/
-launch/_frames/
-launch/build/*.mp4
+launch/
 *.png
 !docs/*.png
-!launch/*.png
-!launch/**/*.png
 data/
