@@ -19,6 +19,14 @@ python -m edittrace demo --n 3
 
 ![EditTrace report](docs/report.png)
 
+## Launch video
+
+64-second launch film, 1920×1080, with soundtrack. Click the poster to play.
+
+[![EditTrace launch poster](launch/poster.png)](launch/edittrace-launch.mp4)
+
+Storyboard and shot list: [`launch/storyboard.md`](launch/storyboard.md).
+
 ```
 [1/3] sample_00.jpg: 3 regions, order conf 0.18, prov 0.48
 [2/3] sample_01.jpg: 3 regions, order conf 0.55, prov 0.72
