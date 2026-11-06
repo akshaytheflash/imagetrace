@@ -8,4 +8,6 @@ dist/
 runs/
 *.png
 !docs/*.png
+!launch/*.png
+!launch/**/*.png
 data/

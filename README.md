@@ -20,9 +20,9 @@ python -m edittrace demo --n 3
 ![EditTrace report](docs/report.png)
 
 ```
-[1/3] sample_00.jpg: 2 regions, order conf 0.61, prov 0.36
-[2/3] sample_01.jpg: 1 region,  order conf 0.00, prov 0.84
-[3/3] sample_02.jpg: 3 regions, order conf 0.44, prov 0.71
+[1/3] sample_00.jpg: 3 regions, order conf 0.18, prov 0.48
+[2/3] sample_01.jpg: 3 regions, order conf 0.55, prov 0.72
+[3/3] sample_02.jpg: 5 regions, order conf 0.61, prov 0.74
 demo written to .../.out/demo
 ```
 
