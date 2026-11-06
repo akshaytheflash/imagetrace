@@ -1,0 +1,461 @@
+{
+  "n": 12,
+  "use_model": false,
+  "mean_iou": 0.1557,
+  "mean_f1": 0.2607,
+  "mean_region_precision": 0.246,
+  "mean_region_recall": 0.375,
+  "mean_type_acc": 0.5,
+  "mean_order_tau": 0.3333,
+  "order_samples": 3,
+  "pair_accuracy": 0.6667,
+  "pair_coverage": 0.25,
+  "mean_order_conf": 0.4113,
+  "mean_seconds": 0.601,
+  "total_seconds": 25.3,
+  "samples": [
+    {
+      "seed": 50000,
+      "iou": 0.1499,
+      "f1": 0.2607,
+      "precision": 0.5,
+      "recall": 0.5,
+      "type_acc": 1.0,
+      "tau": NaN,
+      "order_conf": 0.5794,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 2,
+      "matched": 1,
+      "elapsed": 0.818,
+      "detail": {
+        "kinds": [
+          "inpaint",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "splice"
+        ],
+        "order": [
+          1,
+          2
+        ],
+        "gt_order": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 50001,
+      "iou": 0.3239,
+      "f1": 0.4894,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "type_acc": 1.0,
+      "tau": 1.0,
+      "order_conf": 0.345,
+      "pair_acc": 1.0,
+      "pair_coverage": 1.0,
+      "gt_edits": 2,
+      "pred_regions": 3,
+      "matched": 2,
+      "elapsed": 0.489,
+      "detail": {
+        "kinds": [
+          "splice",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "splice"
+        ],
+        "order": [
+          2,
+          1,
+          3
+        ],
+        "gt_order": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "seed": 50002,
+      "iou": 0.215,
+      "f1": 0.3539,
+      "precision": 0.2857,
+      "recall": 0.5,
+      "type_acc": 0.0,
+      "tau": -1.0,
+      "order_conf": 0.346,
+      "pair_acc": 1.0,
+      "pair_coverage": 1.0,
+      "gt_edits": 2,
+      "pred_regions": 7,
+      "matched": 2,
+      "elapsed": 0.703,
+      "detail": {
+        "kinds": [
+          "splice",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          6,
+          4,
+          5,
+          1,
+          2,
+          7,
+          3
+        ],
+        "gt_order": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "seed": 50003,
+      "iou": 0.233,
+      "f1": 0.378,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "type_acc": 1.0,
+      "tau": NaN,
+      "order_conf": 0.7303,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 3,
+      "matched": 1,
+      "elapsed": 0.499,
+      "detail": {
+        "kinds": [
+          "copy_move",
+          "copy_move"
+        ],
+        "pred_kinds": [
+          "splice",
+          "splice",
+          "splice"
+        ],
+        "order": [
+          3,
+          1,
+          2
+        ],
+        "gt_order": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 50004,
+      "iou": 0.1213,
+      "f1": 0.2163,
+      "precision": 0.5,
+      "recall": 0.5,
+      "type_acc": 1.0,
+      "tau": NaN,
+      "order_conf": 0.4416,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 2,
+      "matched": 1,
+      "elapsed": 0.472,
+      "detail": {
+        "kinds": [
+          "copy_move",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "splice"
+        ],
+        "order": [
+          1,
+          2
+        ],
+        "gt_order": [
+          0
+        ]
+      }
+    },
+    {
+      "seed": 50005,
+      "iou": 0.1388,
+      "f1": 0.2438,
+      "precision": 0.0,
+      "recall": 0.0,
+      "type_acc": 0.0,
+      "tau": NaN,
+      "order_conf": 0.3558,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 5,
+      "matched": 0,
+      "elapsed": 0.638,
+      "detail": {
+        "kinds": [
+          "copy_move",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          4,
+          3,
+          2,
+          5,
+          1
+        ],
+        "gt_order": []
+      }
+    },
+    {
+      "seed": 50006,
+      "iou": 0.0963,
+      "f1": 0.1758,
+      "precision": 0.0,
+      "recall": 0.0,
+      "type_acc": 0.0,
+      "tau": NaN,
+      "order_conf": 0.1242,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 2,
+      "matched": 0,
+      "elapsed": 0.526,
+      "detail": {
+        "kinds": [
+          "inpaint",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "splice"
+        ],
+        "order": [
+          2,
+          1
+        ],
+        "gt_order": []
+      }
+    },
+    {
+      "seed": 50007,
+      "iou": 0.2597,
+      "f1": 0.4123,
+      "precision": 0.25,
+      "recall": 0.5,
+      "type_acc": 1.0,
+      "tau": NaN,
+      "order_conf": 0.3026,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 4,
+      "matched": 1,
+      "elapsed": 0.566,
+      "detail": {
+        "kinds": [
+          "splice",
+          "copy_move"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "gt_order": [
+          0
+        ]
+      }
+    },
+    {
+      "seed": 50008,
+      "iou": 0.0472,
+      "f1": 0.0902,
+      "precision": 0.25,
+      "recall": 0.5,
+      "type_acc": 1.0,
+      "tau": 1.0,
+      "order_conf": 0.4441,
+      "pair_acc": 0.0,
+      "pair_coverage": 1.0,
+      "gt_edits": 2,
+      "pred_regions": 8,
+      "matched": 2,
+      "elapsed": 0.727,
+      "detail": {
+        "kinds": [
+          "inpaint",
+          "copy_move"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          6,
+          4,
+          3,
+          5,
+          1,
+          2,
+          7,
+          8
+        ],
+        "gt_order": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "seed": 50009,
+      "iou": 0.0598,
+      "f1": 0.1129,
+      "precision": 0.1667,
+      "recall": 0.5,
+      "type_acc": 0.0,
+      "tau": NaN,
+      "order_conf": 0.4601,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 6,
+      "matched": 1,
+      "elapsed": 0.684,
+      "detail": {
+        "kinds": [
+          "copy_move",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          5,
+          3,
+          4,
+          1,
+          2,
+          6
+        ],
+        "gt_order": [
+          1
+        ]
+      }
+    },
+    {
+      "seed": 50010,
+      "iou": 0.1595,
+      "f1": 0.2751,
+      "precision": 0.0,
+      "recall": 0.0,
+      "type_acc": 0.0,
+      "tau": NaN,
+      "order_conf": 0.2324,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 4,
+      "matched": 0,
+      "elapsed": 0.561,
+      "detail": {
+        "kinds": [
+          "copy_move",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "copy_move",
+          "copy_move",
+          "copy_move"
+        ],
+        "order": [
+          2,
+          4,
+          3,
+          1
+        ],
+        "gt_order": []
+      }
+    },
+    {
+      "seed": 50011,
+      "iou": 0.0641,
+      "f1": 0.1205,
+      "precision": 0.0,
+      "recall": 0.0,
+      "type_acc": 0.0,
+      "tau": NaN,
+      "order_conf": 0.5735,
+      "pair_acc": NaN,
+      "pair_coverage": 0.0,
+      "gt_edits": 2,
+      "pred_regions": 4,
+      "matched": 0,
+      "elapsed": 0.524,
+      "detail": {
+        "kinds": [
+          "inpaint",
+          "splice"
+        ],
+        "pred_kinds": [
+          "splice",
+          "splice",
+          "splice",
+          "splice"
+        ],
+        "order": [
+          2,
+          1,
+          3,
+          4
+        ],
+        "gt_order": []
+      }
+    }
+  ]
+}
